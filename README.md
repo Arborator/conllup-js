@@ -9,6 +9,8 @@ It is currently being used in :
 - [Surface Syntactic SUD](https://surfacesyntacticud.github.io) : A guideline on Surface Syntactic Universal Dependencies (SUD). Just check the website and try to interact with the dependency trees to have a live demo :D.
 
 ## Updates history
+### 3.1.4
+- bug fix: truncated metadata where value contains " = "
 ### 3.1.3
 - minor change: getNodeFromTreeJson() (previously implemented) throw error in case of non existance of token only if specified 
 ### 3.1.2
